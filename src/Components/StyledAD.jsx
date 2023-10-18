@@ -5,7 +5,7 @@ export const StyledAD = styled.section`
 
     
  .box {
-    background-color: green;
+    background-color: orange;
     height: 90vh;
     width: 100vw;
     margin: auto;
