@@ -7,28 +7,29 @@ function AD(){
     return (
        
         <StyledAD>
+            <h2>Registrar Imóvel</h2>
             <div className='box'>
             <form>
-            <label htmlFor="">DSQFL</label>
-                <input type="number" />
+            <label htmlFor="DSQFL">DSQFL</label>
+                <input type="number" id='DSQFL' placeholder='Digite o DSQFL' />
 
-                <label htmlFor="">DSQ</label>
-                <input type="number" />
+                <label htmlFor="DSQ">DSQ</label>
+                <input type="number" id='DSQ' placeholder='Digite o DSQ' />
                 
-                <label htmlFor="">Bairro</label>
-                <input type="text" />
+                <label htmlFor="Bairro">Bairro</label>
+                <input type="text" id='Bairro' placeholder='Digite o Bairro' />
 
-                <label htmlFor="">Rua</label>
-                <input type="text" />
+                <label htmlFor="Rua">Rua</label>
+                <input type="text" id='Rua' placeholder='Digite a Rua' />
 
-                <label htmlFor="">Número</label>
-                <input type="number" />  
+                <label htmlFor="Numero">Número</label>
+                <input type="number" id='Numero' placeholder='Digite o número'/>  
 
-                <label htmlFor="">Empreendimento</label>
-                <input type="text" />   
+                <label htmlFor="Empreendimento">Empreendimento</label>
+                <input type="text" id='Empreendimento' />   
 
-                <label htmlFor="">Área Total</label>
-                <input type="number" />     
+                <label htmlFor="AT">Área Total</label>
+                <input type="number" id='AT' />     
 
                 
             <StyledDP>
@@ -43,104 +44,104 @@ function AD(){
             </StyledDP>
 
 
-                 <label htmlFor="">Restaurantes e Cafés</label>
-                 <input type="number" />
+                 <label htmlFor="RC">Restaurantes e Cafés</label>
+                 <input type="number" id='RC' />
 
-                 <label htmlFor="">Nome do Edifício</label>
-                <input type="text" />
+                 <label htmlFor="NE">Nome do Edifício</label>
+                <input type="text" id='NE'/>
 
-                <label htmlFor="">Nº Pavimento em Uso</label>
-                <input type="number" />
+                <label htmlFor="NPU">Nº Pavimento em Uso</label>
+                <input type="number" id='NPU' />
 
-                <label htmlFor="">Disponibilidade</label>
-                <input type="text" />
+                <label htmlFor="Disponibilidade">Disponibilidade</label>
+                <input type="text" id='Disponibilidade' />
 
-                <label htmlFor="">Atividade de Funcionamento</label>
-                <input type="text" />
+                <label htmlFor="AF">Atividade de Funcionamento</label>
+                <input type="text" id='AF' />
 
-                <label htmlFor="">Grau de Risco</label>
-                <input type="text" />
+                <label htmlFor="GR">Grau de Risco</label>
+                <input type="text" id='GR' placeholder='Descreva o grau de risco'/>
 
-                <label htmlFor="">Laudo</label>
-                <input type="text" />
+                <label htmlFor="Laudo">Laudo</label>
+                <input type="text" id='Laudo' />
 
-                <label htmlFor="">Acessibilidade</label>
-                <input type="text" />
+                <label htmlFor="Acessibilidade">Acessibilidade</label>
+                <input type="text" id='Acessibilidade' />
 
-                <label htmlFor="">Pichação</label>
-                <input type="text" />
+                <label htmlFor="Pichacao">Pichação</label>
+                <input type="text" id='Pichacao' />
 
-                <label htmlFor="">Observações</label>
-                <input type="text" />
+                <label htmlFor="Observacoes">Observações</label>
+                <input type="text" id='Observacoes' />
 
-                <label htmlFor="">Proprietário Localizado</label>
-                <input type="text" />
+                <label htmlFor="PR">Proprietário Localizado</label>
+                <input type="text" id='PR' />
 
-                <label htmlFor="">Investimento</label>
-                <input type="number" />
+                <label htmlFor="Investimento">Investimento</label>
+                <input type="number" id='Investimento' />
 
-                <label htmlFor="">Qual Investimento</label>
-                <input type="text" />
+                <label htmlFor="QI">Qual Investimento</label>
+                <input type="text" id='QI' />
 
-                <label htmlFor="">Tributação</label>
-                <input type="text" />
+                <label htmlFor="Tributacao">Tributação</label>
+                <input type="text" id='Tributacao' />
 
-                <label htmlFor="">Autorização de Informação</label>
-                <input type="text" />
+                <label htmlFor="AI">Autorização de Informação</label>
+                <input type="text" id='AI' />
 
-                <label htmlFor="">Proprietário Cartório</label>
-                <input type="text" />
+                <label htmlFor="PC">Proprietário Cartório</label>
+                <input type="text" id='PC' />
 
-                <label htmlFor="">Proprietário Campo</label>
-                <input type="text" />
+                <label htmlFor="PPC">Proprietário Campo</label>
+                <input type="text" id='PPC' />
 
-                <label htmlFor="">Contato Proprietário</label>
-                <input type="number" />
+                <label htmlFor="CP">Contato Proprietário</label>
+                <input type="number" id='CP'/>
 
-                <label htmlFor="">Coincidência Proprietário</label>
-                <input type="text" />
+                <label htmlFor="CCP">Coincidência Proprietário</label>
+                <input type="text" id='CCP' />
 
-                <label htmlFor="">Uso do Imóvel</label>
-                <input type="text" />
+                <label htmlFor="UI">Uso do Imóvel</label>
+                <input type="text" id='UI' />
 
-                <label htmlFor="">Valor do Aluguel</label>
-                <input type="number" />
+                <label htmlFor="VA">Valor do Aluguel</label>
+                <input type="number" id='VA' />
 
-                <label htmlFor="">Valor de Venda</label>
-                <input type="number" />
+                <label htmlFor="VV">Valor de Venda</label>
+                <input type="number" id='VV' />
 
-                <label htmlFor="">Latitude</label>
-                <input type="number" />
+                <label htmlFor="Latitude">Latitude</label>
+                <input type="number" id='Latitude' />
 
-                <label htmlFor="">Longitude</label>
-                <input type="number" />
+                <label htmlFor="Longitude">Longitude</label>
+                <input type="number" id='Longitude' />
 
-                <label htmlFor="">RGI</label>
-                <input type="text" />
+                <label htmlFor="RGI">RGI</label>
+                <input type="text" id='RGI' />
 
-                <label htmlFor="">Planta</label>
-                <input type="text" />
+                <label htmlFor="Planta">Planta</label>
+                <input type="text" id='Planta' />
 
-                <label htmlFor="">Planta Regional</label>
-                <input type="text" />
+                <label htmlFor="PLR">Planta Regional</label>
+                <input type="text" id='PLR' />
 
-                <label htmlFor="">Judicialização</label>
-                <input type="text" />
+                <label htmlFor="Judicializacao">Judicialização</label>
+                <input type="text" id='Judicializacao' />
 
-                <label htmlFor="">Descrição Judiciação</label>
-                <input type="text" />
+                <label htmlFor="DJ">Descrição Judiciação</label>
+                <input type="text" id='DJ' />
                 
-                <label htmlFor="">Observações</label>
-                <input type="text" />
+                <label htmlFor="Observacoes">Observações</label>
+                <input type="text" id='Observacoes' />
 
-                <label htmlFor="">Processos abertos desde 2018</label>
-                <input type="text" />
+                <label htmlFor="PA2018">Processos abertos desde 2018</label>
+                <input type="text" id='PA2018' />
 
-                <label htmlFor="">Nº da Licença</label>
-                <input type="number" />
+                <label htmlFor="NL">Nº da Licença</label>
+                <input type="number" id='NL' />
 
-                <label htmlFor="">Nº do Processo</label>
-                <input type="number" />
+                <label htmlFor="NP">Nº do Processo</label>
+                <input type="number" id='NP' />
 
             </form>
 
