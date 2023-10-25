@@ -1,5 +1,5 @@
 
-import {StyledAD, StyledDP} from '../Components/StyledAD'
+import {StyledAD, StyledDP, StyledGroup1, StyledGroup2, StyledGroup3} from '../Components/StyledAD'
 
 
 function AD(){
@@ -10,7 +10,8 @@ function AD(){
             <h2>Registrar Imóvel</h2>
             <div className='box'>
             <form>
-            <label htmlFor="DSQFL">DSQFL</label>
+                <StyledGroup1>
+                <label htmlFor="DSQFL">DSQFL</label>
                 <input type="number" id='DSQFL' placeholder='Digite o DSQFL' />
 
                 <label htmlFor="DSQ">DSQ</label>
@@ -29,11 +30,12 @@ function AD(){
                 <input type="text" id='Empreendimento' />   
 
                 <label htmlFor="AT">Área Total</label>
-                <input type="number" id='AT' />     
+                <input type="number" id='AT' />    
 
                 
             <StyledDP>
-                <br></br>   
+                <br></br>
+                <div className='dropdown'>  
                 <label htmlFor="situacao">Situação</label>    
                 <select id="situacao" name="Situação">
                  <option value="volvo">Abandonado</option>
@@ -41,6 +43,7 @@ function AD(){
                  <option value="mercedes">Em reforma</option>
                  <option value="audi">Disponível</option>
                  </select>
+                 </div>
             </StyledDP>
 
 
@@ -58,10 +61,14 @@ function AD(){
 
                 <label htmlFor="AF">Atividade de Funcionamento</label>
                 <input type="text" id='AF' />
+                 
 
+                
                 <label htmlFor="GR">Grau de Risco</label>
                 <input type="text" id='GR' placeholder='Descreva o grau de risco'/>
+                </StyledGroup1>
 
+                <StyledGroup2>
                 <label htmlFor="Laudo">Laudo</label>
                 <input type="text" id='Laudo' />
 
@@ -103,7 +110,9 @@ function AD(){
 
                 <label htmlFor="UI">Uso do Imóvel</label>
                 <input type="text" id='UI' />
+                </StyledGroup2>
 
+                <StyledGroup3>
                 <label htmlFor="VA">Valor do Aluguel</label>
                 <input type="number" id='VA' />
 
@@ -115,7 +124,7 @@ function AD(){
 
                 <label htmlFor="Longitude">Longitude</label>
                 <input type="number" id='Longitude' />
-
+            
                 <label htmlFor="RGI">RGI</label>
                 <input type="text" id='RGI' />
 
@@ -143,6 +152,8 @@ function AD(){
                 <label htmlFor="NP">Nº do Processo</label>
                 <input type="number" id='NP' />
 
+                <button><a href='#'></a>Salvar</button>
+                </StyledGroup3>
             </form>
 
             </div>

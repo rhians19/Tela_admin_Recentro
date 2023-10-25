@@ -2,6 +2,9 @@ import styled from 'styled-components'
 
 
 export const StyledAD = styled.div`
+* {
+   font-family: 'Inter', sans-serif;
+}
 
  .box {
     display: flex;
@@ -13,28 +16,29 @@ export const StyledAD = styled.div`
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
 
     form {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: auto auto auto;
         justify-content: space-between;
         padding: 1rem 0;
         align-items: center;
     }
- }
 
- input {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-beteween;
-    margin: 0.6rem 0;
-    padding: 0.8rem 1.2rem;
-    border-width: thin;
-    border-radius: 10px;
-    boder-shadow: 1px 1px 6px #000001c;
-    width: 30rem;
- }
-
-input::hover {
-    background-color: #eeeeee75;
+    input {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-beteween;
+      margin: 0.6rem 0;
+      padding: 0.8rem 1.2rem;
+      background-color: #dfe0e2;
+      border: none;
+      border-radius: 10px;
+      border-shadow: 3px 3px 10px #000001c;
+      width: 25rem;
+   }
+  
+  input::hover {
+      background-color: #eeeeee75;
+   }
  }
 
  h2::after{
@@ -47,6 +51,20 @@ input::hover {
     position: absolute;
     border-radius: 10px;
  }
+
+ button {
+   margin-top: 10px;
+   padding: 10px;
+   border-radius: 8px;
+   border: 0;
+   background-color: #f09311;
+   color: #fff;
+   font-size: 20px;
+ }
+
+ button:hover {
+   opacity: 0.9
+ }
 `
 export const StyledDP = styled.div`
 
@@ -55,7 +73,28 @@ select{
     padding: 0.8rem 1.2rem;
     border-radius: 10px;
     boder-shadow: 1px 1px 6px #0000001c;
-    width: 30rem;
+    width: 25rem;
+    
+}
+`
+export const StyledGroup1 = styled.div`
+
+body {
+   margin: 0.6rem 0;
+    
+}
+`
+export const StyledGroup2 = styled.div`
+
+body {
+   margin: 0.6rem 0;
+    
+}
+`
+export const StyledGroup3 = styled.div`
+
+body {
+   margin: 0.6rem 0;
     
 }
 `
