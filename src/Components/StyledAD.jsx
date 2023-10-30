@@ -9,28 +9,33 @@ export const StyledAD = styled.div`
  .box {
     display: flex;
     height: 100%;
-    width: 100vh;
+    width: 100%;
     margin: auto;
     justify-content: center;
     align-items: center;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    border-radius: 20px;
+    
 
     form {
         display: grid;
-        grid-template-columns: auto auto auto;
-        justify-content: space-between;
+        grid-template-columns: 35rem 35rem 30rem;
+        justify-content: center;
         padding: 1rem 0;
-        align-items: center;
+        
     }
 
     input {
       display: flex;
       flex-direction: column;
-      justify-content: space-beteween;
+      justify-content: space-between;
+      align-items: center;
       margin: 0.6rem 0;
+      margin-right: 5rem;
       padding: 0.8rem 1.2rem;
       background-color: #dfe0e2;
-      border: none;
+      border: 2px solid;
+      border-color: #353B3C;
       border-radius: 10px;
       border-shadow: 3px 3px 10px #000001c;
       width: 25rem;
@@ -51,29 +56,28 @@ export const StyledAD = styled.div`
     position: absolute;
     border-radius: 10px;
  }
-
- button {
-   margin-top: 10px;
-   padding: 10px;
-   border-radius: 8px;
-   border: 0;
-   background-color: #f09311;
-   color: #fff;
-   font-size: 20px;
- }
-
+ 
  button:hover {
    opacity: 0.9
  }
+ 
 `
 export const StyledDP = styled.div`
 
 select{
-    margin: 0.6rem 0;
-    padding: 0.8rem 1.2rem;
-    border-radius: 10px;
-    boder-shadow: 1px 1px 6px #0000001c;
-    width: 25rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0.6rem 0;
+      margin-right: 5rem;
+      padding: 0.8rem 1.2rem;
+      background-color: #dfe0e2;
+      border: 2px solid;
+      border-color: #353B3C;
+      border-radius: 10px;
+      border-shadow: 3px 3px 10px #000001c;
+      width: 27.8rem;
     
 }
 `
@@ -95,6 +99,26 @@ export const StyledGroup3 = styled.div`
 
 body {
    margin: 0.6rem 0;
+    
+}
+`
+export const StyledButtons = styled.div`
+
+.button-group {
+   display: flex;
+   flex-direction: row;
+}
+
+button {
+   margin-top: 40px;
+   margin-right: 3rem;
+   width: 10rem; 
+   padding: 10px;
+   border-radius: 8px;
+   border: 0;
+   background-color: #f09311;
+   color: #fff;
+   font-size: 20px;
     
 }
 `

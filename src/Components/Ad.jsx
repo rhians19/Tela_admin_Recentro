@@ -1,5 +1,5 @@
 
-import {StyledAD, StyledDP, StyledGroup1, StyledGroup2, StyledGroup3} from '../Components/StyledAD'
+import {StyledAD, StyledDP, StyledGroup1, StyledGroup2, StyledGroup3, StyledButtons} from '../Components/StyledAD'
 
 
 function AD(){
@@ -34,7 +34,6 @@ function AD(){
 
                 
             <StyledDP>
-                <br></br>
                 <div className='dropdown'>  
                 <label htmlFor="situacao">Situação</label>    
                 <select id="situacao" name="Situação">
@@ -151,10 +150,17 @@ function AD(){
 
                 <label htmlFor="NP">Nº do Processo</label>
                 <input type="number" id='NP' />
-
+                <StyledButtons>
+                <div className='button-group'>
+                <button><a href='#'></a>Limpar</button>
                 <button><a href='#'></a>Salvar</button>
+                <button><a href='#'></a>Cancelar</button>
+                </div>
+                </StyledButtons>
                 </StyledGroup3>
+                
             </form>
+
 
             </div>
         </StyledAD>
